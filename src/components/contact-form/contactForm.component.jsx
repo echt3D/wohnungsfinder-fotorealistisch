@@ -9,7 +9,7 @@ import {
 } from "@mui/material";
 import Alert from "@mui/material/Alert";
 
-import ContactPerson from "../contact-person/contactPerson.component";
+// import ContactPerson from "../contact-person/contactPerson.component";
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -63,7 +63,7 @@ const ContactForm = () => {
 
   return (
     <>
-      <ContactPerson />
+      {/* <ContactPerson /> */}
       {/* <Box component="form" onSubmit={handleSubmit}>
         <Typography variant="h5">Kontakt</Typography>
         <TextField

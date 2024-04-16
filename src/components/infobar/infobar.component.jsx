@@ -5,9 +5,9 @@ import * as AppSetup from "../../custom/appSetup";
 import { StateContext } from "../../context/ProjectDataContext";
 import { LivestateContext } from "../../context/LivestateContext";
 
-import CardTitleInformation from "../card-title-information/cardTitleInformation.component";
+import CardTitleInformation from "../card-title-information/cartTitleInformation.component";
 import { Box, Button, useTheme } from "@mui/material";
-import UnitInformationGrid from "../unit-information-grid/unitInformationGrid.component";
+import UnitInformationGrid from "../unit-information-grid/unit-information-grid";
 import CloseModal from "../close-modal/closeModal.component";
 
 import PanoramaHorizontalRoundedIcon from "@mui/icons-material/PanoramaHorizontalRounded";

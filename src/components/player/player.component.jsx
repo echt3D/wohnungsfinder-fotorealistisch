@@ -1,10 +1,10 @@
 import { React, useState, useEffect } from "react";
 
 import Canvas from "../canvas/canvas.component";
-import CanvasTooltip from "../canvas-tooltip/canvasTooltip.component";
+import CanvasTooltip from "../canvas-tooltip/canvas.Tooltip.component";
 
 import "./player.styles.scss";
-import UiControls from "../ui-controls/ui-controls.component";
+import UiControls from "../ui-controls/ui-controls.components";
 import { useContext } from "react";
 import { LivestateContext } from "../../context/LivestateContext";
 

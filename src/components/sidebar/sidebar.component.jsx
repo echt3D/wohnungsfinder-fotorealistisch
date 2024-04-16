@@ -19,17 +19,17 @@ import { StateContext } from "../../context/ProjectDataContext";
 import "./sidebar.styles.scss";
 import SidebarFlats from "../sidebar-flats/sidebarFlats.component";
 
-import Logo from "../../custom/logo.svg";
-import { LivestateContext } from "../../context/LivestateContext";
+// import Logo from "../../custom/logo.svg";
+import { LivestateContext } from "../../context/LivestateContext.js";
 
 import * as AppSetup from "../../custom/appSetup";
 import ContactForm from "../contact-form/contactForm.component";
 
 import { useMediaQuery } from "../../utils/useMediaQuery";
-import { InfoboxButtonElement } from "../infobox-button-element/infoboxButtonElement";
+// import { InfoboxButtonElement } from "../infobox-button-element/infoboxButtonElement";
 
 import { getProjectPlans } from "./../../utils/getProjectPlans.js";
-import SidebarFilter from "../sidebar-filter/sidebarFilter.component";
+// import SidebarFilter from "../sidebar-filter/sidebarFilter.component";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -109,7 +109,7 @@ function Sidebar() {
       {isBigScreen ? (
         <Box className="e3d-ui-sidebar__header">
           <Box className="e3d-ui-sidebar__logo">
-            <img src={Logo} alt="Logo Uetliblick Gattikon" />
+            {/* <img src={Logo} alt="Logo Uetliblick Gattikon" /> */}
           </Box>
         </Box>
       ) : (

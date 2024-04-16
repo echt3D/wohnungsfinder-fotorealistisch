@@ -11,7 +11,7 @@ import HomeRoundedIcon from "@mui/icons-material/HomeRounded";
 
 import { LivestateContext } from "../../context/LivestateContext";
 import { StateContext } from "../../context/ProjectDataContext";
-import UiSettings from "../ui-settings/uiSettings.component";
+// import UiSettings from "../ui-settings/uiSettings.component";
 import UiNorthArrow from "../ui-north-arrow/uiNorthArrow.component";
 import { Button, Chip, useTheme } from "@mui/material";
 import { useMediaQuery } from "../../utils/useMediaQuery";

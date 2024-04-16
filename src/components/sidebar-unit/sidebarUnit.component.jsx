@@ -6,7 +6,7 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import Chip from "@mui/material/Chip";
 
-import CardTitleInformation from "../card-title-information/cardTitleInformation.component";
+import CardTitleInformation from "../card-title-information/cartTitleInformation.component";
 
 import { useTheme } from "@mui/material";
 
