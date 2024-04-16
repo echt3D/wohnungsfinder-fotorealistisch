@@ -23,7 +23,7 @@ import SidebarFlats from "../sidebar-flats/sidebarFlats.component";
 import { LivestateContext } from "../../context/LivestateContext.js";
 
 import * as AppSetup from "../../custom/appSetup";
-import ContactForm from "../contact-form/contactForm.component";
+// import ContactForm from "../contact-form/contactForm.component";
 
 import { useMediaQuery } from "../../utils/useMediaQuery";
 // import { InfoboxButtonElement } from "../infobox-button-element/infoboxButtonElement";
@@ -170,9 +170,7 @@ function Sidebar() {
           <SidebarFilter />
         </TabPanel> */}
         <TabPanel value={value} index={1}>
-          <Box>
-            <ContactForm />
-          </Box>
+          <Box>{/* <ContactForm /> */}</Box>
         </TabPanel>
         {/* <TabPanel value={value} index={3}>
           <InfoboxButtonElement
