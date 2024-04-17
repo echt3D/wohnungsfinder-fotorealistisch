@@ -40,7 +40,6 @@ const Canvas = () => {
         "f",
         ""
       )}.jpg`;
-      console.log("img", img);
       return img;
     });
     setPreloadedImages(loadedImages);
@@ -71,7 +70,7 @@ const Canvas = () => {
     canvas = canvasRef.current;
     const ctx = canvas.getContext("2d");
 
-    const bounds = { width: 2160, height: 1330 };
+    const bounds = { width: 2400, height: 1350 };
     const scale = Math.max(
       canvas.width / bounds.width,
       canvas.height / bounds.height
