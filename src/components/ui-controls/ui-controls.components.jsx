@@ -76,7 +76,7 @@ function UiControls() {
 
   return (
     <>
-      <Box sx={IconsStyles} style={{ top: "10px" }}>
+      {/* <Box sx={IconsStyles} style={{ top: "10px" }}>
         <Tooltip title="Sidebar ein/ausschalten" arrow>
           <Fab
             sx={FabStyle}
@@ -111,9 +111,9 @@ function UiControls() {
           </Tooltip>
         ) : (
           ""
-        )}
-        {/* <UiSettings /> */}
-      </Box>
+        )} */}
+      {/* <UiSettings /> */}
+      {/* </Box> */}
       <Box sx={IconsStyles} style={{ bottom: "10px" }}>
         <Fab
           sx={FabStyle}
