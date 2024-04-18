@@ -45,12 +45,14 @@ function E3DApp() {
         lightboxTitle = "Rundgang";
       }
     } else {
-      lightboxSrc = `${process.env.PUBLIC_URL}/data/views/tour.html?start_scene=${lightbox}`;
+      // lightboxSrc = `${process.env.PUBLIC_URL}/data/views/tour.html?start_scene=${lightbox}`;
+      lightboxSrc =
+        "https://wohnungsfinder.echt3d.ch/0394_LerchPromo_Uetliblick_Gattikon/data/views/tour.html";
       lightboxTitle = "Aussicht";
     }
   }
 
-  // console.log(lightbox)
+  console.log(lightbox);
 
   const infoBoxStyle = {
     width: "100%",
