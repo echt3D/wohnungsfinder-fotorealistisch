@@ -32,7 +32,7 @@ function SidebarUnit({ props, statustable, className, styling, hasChip }) {
   const chipTextColor = theme.palette.customChipTextColor[status.colorCode];
 
   return (
-    <Card style={{ background: "transparent" }}>
+    <Card style={{ background: "white" }}>
       <CardContent
         sx={{ pb: 0 }}
         style={{ pointerEvents: isBigScreen ? "auto" : "none" }}
