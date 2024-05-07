@@ -529,7 +529,7 @@ const Canvas = () => {
       className="e3d-canvas-container"
       style={{
         backgroundImage: currentImage ? `url('${currentImage.src}')` : "none",
-        height: isBigScreen ? "100vh" : "100%",
+        height: isBigScreen ? "100vh" : "90%",
       }}
       ref={canvasContainerRef}
     >
